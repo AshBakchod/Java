@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 
 public class HeronsFormulaTest {
 
-    @Test
-    void test1() {
+    @org.junit.Test
+    public void test1() {
         Assertions.assertEquals(HeronsFormula.Herons(3, 4, 5), 6.0);
     }
 
